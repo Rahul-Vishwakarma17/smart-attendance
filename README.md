@@ -1,16 +1,87 @@
-# React + Vite
+📚 Smart Attendance System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Smart Attendance System built using React (Vite) for frontend and Supabase for backend, deployed on Vercel.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://your-project-name.vercel.app
 
-## React Compiler
+🧠 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔ User Authentication (Supabase)
+✔ QR-based Attendance System
+✔ Real-time data storage
+✔ Teacher Dashboard
+✔ Responsive UI
+✔ Deployed on Vercel
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React (Vite)
+Backend: Supabase
+Deployment: Vercel
+Version Control: Git & GitHub
+📁 Project Structure
+smart-attendance/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── components/
+├── index.html
+├── package.json
+└── vite.config.js
+⚙️ Setup Instructions
+1️⃣ Clone the repository
+git clone https://github.com/your-username/smart-attendance.git
+cd smart-attendance
+2️⃣ Install dependencies
+npm install
+3️⃣ Configure Supabase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create a .env file in root:
+
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
+4️⃣ Run the project
+npm run dev
+5️⃣ Build for production
+npm run build
+🧪 How It Works
+User logs in via Supabase authentication
+Teacher generates QR code
+Students scan QR using mobile
+Attendance data is stored in Supabase
+Teacher can view attendance in dashboard
+📊 Database
+Uses Supabase tables
+Row Level Security (RLS) enabled
+Secure data handling
+🌐 Deployment
+Frontend deployed on Vercel
+Backend powered by Supabase
+Auto deployment via GitHub
+🔐 Security
+
+✔ Environment variables used
+✔ Supabase RLS enabled
+✔ Secure API keys
+
+📌 Future Improvements
+QR auto-scanner improvements
+Attendance analytics
+CSV export
+Location-based validation
+UI enhancements
+👨‍💻 Author
+
+Rahul Vishwakarma
+
+⭐ Acknowledgements
+React
+Supabase
+Vercel
+GitHub
+📄 License
+
+This project is licensed under the MIT License.
