@@ -4,7 +4,7 @@ A full-stack Smart Attendance System built using React (Vite) for frontend and S
 
 🚀 Live Demo
 
-👉 https://your-project-name.vercel.app
+👉 https://smart-attendance-sable.vercel.app/
 
 🧠 Features
 
